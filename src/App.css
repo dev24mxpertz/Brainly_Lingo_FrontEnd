@@ -1,0 +1,46 @@
+
+.App {
+  text-align: center;
+}
+body{
+  background-color: var(--background-color);
+  }
+
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+
+h1{
+  padding: 0;
+  margin: 0;
+}
+
+ul,li{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul.navItems {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+button {
+  border: none;
+  background: none;
+  padding: 0;
+  margin: 0;
+}
+@media only screen and (max-width: 780px) {
+  body{
+  
+    padding: 0rem 0rem;
+  }
+}
